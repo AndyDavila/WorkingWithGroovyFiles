@@ -8,7 +8,7 @@ try { //using try/catch structure to get the errors
 	responder = load 'responder/responder.groovy' //assign the second groovy file to the defined variable with the command "load"    
 	println responder //prints the variable       
 	responder.hello('hi')
-	catch (Exception err){     
+	}catch (Exception err){     
 	println err   }  } }} 
 
 def repoclone(){ //defines a function to clone the repositories to the Jenkins' workspace  
