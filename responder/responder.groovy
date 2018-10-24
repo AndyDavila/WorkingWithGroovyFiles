@@ -4,3 +4,4 @@ println 'Hello from responder file!'  }
 else { // if the greet values is diffrent to "hello" then executes the println "wzup"   println 'wzup'  } } 
  
 return this; //returs the output of the execution of the function
+}}
