@@ -9,7 +9,7 @@ try { //using try/catch structure to get the errors
 	println responder //prints the variable       
 	responder.hello('hi')
 	}catch (Exception err){     
-	println err   }  } }} 
+	println err   }  } } 
 
 def repoclone(){ //defines a function to clone the repositories to the Jenkins' workspace  
 checkout([$class: 'GitSCM', branches: [[name: '*/'+'master']], 
